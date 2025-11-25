@@ -60,3 +60,16 @@ The transformation path file:///Users/jds/Desktop/win/pentaho/transformasi.ktr i
 2025-11-20 16:42:55.013 INFO  <Thread-6> [/home/runner/work/kettle-runner/kettle-runner/etl/job_json_to_excel.kjb]  Finished job entry [Success] (result=[true])
 2025-11-20 16:42:55.013 INFO  <Thread-6> [/home/runner/work/kettle-runner/kettle-runner/etl/job_json_to_excel.kjb]  Finished job entry [Transformation] (result=[true])
 2025-11-20 16:42:55.014 WARN  <Thread-6> [/home/runner/work/kettle-runner/kettle-runner/etl/job_json_to_excel.kjb]  Job execution finished
+2025-11-25 04:42:03.369 WARN  <Thread-6> [/home/runner/work/kettle-runner/kettle-runner/etl/pentaho_job.kjb]  Start of job execution
+2025-11-25 04:42:03.424 INFO  <Thread-6> [/home/runner/work/kettle-runner/kettle-runner/etl/pentaho_job.kjb]  Starting entry [Transformation Workflow]
+2025-11-25 04:42:03.499 INFO  <Thread-6> [/home/runner/work/kettle-runner/kettle-runner/etl/pentaho_job.kjb]  Using run configuration [Pentaho local]
+2025-11-25 04:42:03.506 INFO  <Thread-6> [/home/runner/work/kettle-runner/kettle-runner/etl/pentaho_job.kjb  file:///home/runner/work/kettle-runner/kettle-runner/etl/pentaho_workflow.ktr]  Dispatching started for transformation [pentaho_workflow]
+2025-11-25 04:42:03.608 INFO  <pentaho_workflow - Data grid> [/home/runner/work/kettle-runner/kettle-runner/etl/pentaho_job.kjb  file:///home/runner/work/kettle-runner/kettle-runner/etl/pentaho_workflow.ktr]  Finished processing (I=0, O=0, R=0, W=1, U=0, E=0)
+2025-11-25 04:42:04.791 INFO  <pentaho_workflow - REST client> [/home/runner/work/kettle-runner/kettle-runner/etl/pentaho_job.kjb  file:///home/runner/work/kettle-runner/kettle-runner/etl/pentaho_workflow.ktr]  Finished processing (I=0, O=0, R=1, W=1, U=0, E=0)
+2025-11-25 04:42:04.822 INFO  <pentaho_workflow - JSON input> [/home/runner/work/kettle-runner/kettle-runner/etl/pentaho_job.kjb  file:///home/runner/work/kettle-runner/kettle-runner/etl/pentaho_workflow.ktr]  Finished processing (I=10, O=0, R=1, W=10, U=0, E=0)
+2025-11-25 04:42:04.825 INFO  <pentaho_workflow - Select values> [/home/runner/work/kettle-runner/kettle-runner/etl/pentaho_job.kjb  file:///home/runner/work/kettle-runner/kettle-runner/etl/pentaho_workflow.ktr]  Finished processing (I=0, O=0, R=10, W=10, U=0, E=0)
+2025-11-25 04:42:04.898 INFO  <pentaho_workflow - Microsoft Excel output> [/home/runner/work/kettle-runner/kettle-runner/etl/pentaho_job.kjb  file:///home/runner/work/kettle-runner/kettle-runner/etl/pentaho_workflow.ktr]  Finished processing (I=0, O=10, R=10, W=10, U=0, E=0)
+2025-11-25 04:42:04.904 INFO  <Thread-6> [/home/runner/work/kettle-runner/kettle-runner/etl/pentaho_job.kjb]  Starting entry [Success]
+2025-11-25 04:42:04.906 INFO  <Thread-6> [/home/runner/work/kettle-runner/kettle-runner/etl/pentaho_job.kjb]  Finished job entry [Success] (result=[true])
+2025-11-25 04:42:04.907 INFO  <Thread-6> [/home/runner/work/kettle-runner/kettle-runner/etl/pentaho_job.kjb]  Finished job entry [Transformation Workflow] (result=[true])
+2025-11-25 04:42:04.908 WARN  <Thread-6> [/home/runner/work/kettle-runner/kettle-runner/etl/pentaho_job.kjb]  Job execution finished
